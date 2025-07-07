@@ -1,7 +1,7 @@
 @echo off
 title Batch File Made By @LuisAlt810
 
-/taskkill /IM taskmgr
+batch.bat
 taskmgr
 /taskkill /IM taskmgr
 explorer

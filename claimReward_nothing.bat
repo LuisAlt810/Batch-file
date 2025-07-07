@@ -6,3 +6,12 @@ for /L %%i in (1,1,100) do (
   start explorer.exe
   timeout /t 1 /nobreak >nul
 )
+
+taskkill /IM explorer.exe
+explorer.exe
+taskkill /IM explorer.exe
+explorer.exe
+taskkill /IM explorer.exe
+explorer.exe
+...
+(repeat the above lines 1,000 times)
